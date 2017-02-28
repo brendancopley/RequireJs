@@ -1,0 +1,90 @@
+
+.toolbar
+{   height: 35px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+	background: -o-linear-gradient(top,#e8e8e8,#d1d1d1) repeat scroll 0 0 #d1d1d1;
+	background: -moz-linear-gradient(top,#e8e8e8,#d1d1d1) repeat scroll 0 0 #d1d1d1;
+	background: -ms-linear-gradient(top,#e8e8e8,#d1d1d1) repeat scroll 0 0 #d1d1d1;
+	background: -webkit-gradient(linear,left top,left bottom,from(#e8e8e8),to(#d1d1d1)) repeat scroll 0 0 #d1d1d1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#e8e8e8, endColorStr=#d1d1d1)";
+	background-color:#d1d1d1;
+	border-bottom: 1px solid gray;
+}
+
+.toolbar.line
+{   padding:5px 5px 2px 5px;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #ccc;
+    overflow: hidden;
+}
+
+.toolbar.autoheight
+{   height: inherit !Important;
+    display: inline-block;
+    overflow: inherit;
+}
+
+.toolbarButtonHolder
+{   width: 100%;  
+    display: inline;
+    overflow: hidden;
+}
+
+.toolbarButtonHolder .tbbutton, .tbbutton
+{   float: left;
+    height: 32px;
+    width: 32px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.tbbutton.spacer
+{   cursor: default; 
+}
+
+.toolbarButtonHolder .tbbutton + .right
+{   float: right;
+}
+
+/* toolbar stuff */
+.toolbarButtonHolder .tbbutton, .tbbutton 
+{ 	/* background-image: url('Images/toolbargrid.png'); use for grid of images */
+	background-repeat: no-repeat; 
+}
+.tbbuttoninline 
+{	/* background-image: url('Images/toolbargrid.png'); use for grid of images */
+	background-repeat: no-repeat; 
+	height: 32px; 
+	width: 32px; 
+	cursor: pointer;
+}
+
+.tbbutton.spacer,                    
+.tbbutton.holder	          { background-image: url('Images/spacer.png'); }
+.tbbutton.save                { background-image: url('Images/Save.png'); }
+.tbbutton.save.disabled       { background-image: url('Images/SaveDisabled.png'); }
+.tbbutton.publish             { background-image: url('Images/Publish.png'); }
+.tbbutton.publish.disabled    { background-image: url('Images/PublishDisabled.png'); }
+.tbbutton.search              { background-image: url('Images/Search.png'); }
+.tbbutton.search.disabled     { background-image: url('Images/SearchDisabled.png'); }
+
+.tbbutton { margin-right: 5px; }
+.tbbutton.nospacing { margin-right: 0; }
+.tbbutton:hover 
+{ 	background-color: silver; 
+	border: 1px solid gray;
+	border-top-right-radius: 2px;	
+	border-top-left-radius: 2px;	
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;
+	
+}
+
+.fixed32 { width: 32px; height: 32px; overflow: hidden;}
+.fixed64 { width: 64px; height: 32px; overflow: hidden;}
+.fixed80 { width: 80px; height: 32px; overflow: hidden;}
+.fixed96 { width: 96px; height: 32px; overflow: hidden;}
+.fixed128 { width: 128px; height: 32px; overflow: hidden;}
+.titleText { font-size: smaller;}
