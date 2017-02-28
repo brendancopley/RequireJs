@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">	
+	<head>
+		<meta charset="utf-8" http-equiv="encoding">
+		<link rel="stylesheet" href="css/KSM_toolbar.css">
+		<link rel="stylesheet" href="css/KSM_master.css">
+		<script src="jquery.js"></script>
+		<script src="KSM_Toolbar.js"></script>
+		<script>
+			$(function()
+			{	_KSM.Toolbar.toolbarDiv(
+				{	context: '.content',
+					buttons:
+					[	
+						{	type: 'save' },
+						{	type: 'search' },
+						{	type: 'publish' }
+					]
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="page">
+			<div class="content">
+				<h2>Pluralsight Sample - 1</h2>
+				<h3>Demonstrating a traditional HTML page with embedded JavaScript</h3>
+				<h4>Using</h4>
+				<ul>
+					<li>jQuery</li>
+					<li>standard JavaScript toolbar library</li>
+					<li>default toolbar tooltips</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

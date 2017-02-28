@@ -1,2 +1,2 @@
 # RequireJs
-RequireJs sample projects
+Javascript Development Environment for testing RequireJs AMD
